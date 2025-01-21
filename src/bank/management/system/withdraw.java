@@ -126,61 +126,7 @@ public class withdraw extends JFrame implements ActionListener {
 
         }
 
-        // try {
-        // Conn c = new Conn();
-
-        // if (ae.getSource() == enter) {
-        // String rs = amount.getText();
-        // try {
-        // z = Double.parseDouble(rs);
-
-        // ResultSet x = c.s.executeQuery("select * from banking where cardnum = '" +
-        // cardnum + "'");
-        // Double balance = 0.0;
-        // while (x.next()) {
-        // if (x.getString("type").equals("Deposit")) {
-        // balance += Double.parseDouble(x.getString("amount"));
-        // } else {
-        // balance -= Double.parseDouble(x.getString("amount"));
-        // }
-        // }
-
-        // if (z > balance) {
-        // JOptionPane.showMessageDialog(null, "insufficient Balance");
-        // } else {
-
-        // Date date = new Date();
-        // String q1 = "Insert into banking values('" + cardnum + "','" + date +
-        // "','Withdraw','"
-        // + x.toString() + "')";
-        // try {
-        // c.s.executeUpdate(q1);
-        // JOptionPane.showMessageDialog(null, x.toString() + " debited Succefully :)");
-        // setVisible(false);
-        // new Login(cardnum).setVisible(true);
-        // } catch (Exception e) {
-        // JOptionPane.showMessageDialog(null, "Server Error Try After Some Time !");
-
-        // }
-        // }
-
-        // } catch (Exception e) {
-        // JOptionPane.showMessageDialog(null, "Please Enter Valid Ammount Details!");
-        // }
-
-        // }
-
-        // if (ae.getSource() == exit) {
-        // setVisible(false);
-        // Transaction x = new Transaction(cardnum);
-        // x.setVisible(true);
-        // }
-        // } catch (Exception e) {
-        // JOptionPane.showMessageDialog(null, "Server Error Try After Some Time !");
-        // setVisible(false);
-        // new Login("").setVisible(true);
-
-        // }
+      
 
     }
 
